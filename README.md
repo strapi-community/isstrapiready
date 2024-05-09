@@ -1,4 +1,4 @@
-[![Is Strapi Ready?](https://isstrapiready.com/preview.png)](https://isstrapiready.com)
+[![Is Strapi Ready?](https://github.com/strapi-community/isstrapiready/blob/main/static/preview.png?raw=true)](https://isstrapiready.com)
 
 # Is Strapi Ready?
 

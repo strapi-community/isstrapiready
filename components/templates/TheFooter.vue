@@ -4,19 +4,11 @@
   >
     Made with 💜 by <br class="block sm:hidden" />
     <a
-      href="https://twitter.com/Stun3R_"
+      href="https://github.com/strapi-community"
       target="_blank"
       rel="noopener noreferrer"
       class="font-medium transition-colors hover:text-strapi-purple"
-      >Thibaut DAVID</a
-    >
-    &
-    <a
-      href="https://twitter.com/LeiksaTV"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="font-medium transition-colors hover:text-strapi-purple"
-      >Diane GUILLOT</a
+      >Strapi community</a
     >
   </footer>
 </template>

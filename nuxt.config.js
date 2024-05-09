@@ -1,5 +1,5 @@
-import Strapi from "strapi-sdk-js";
 const url = "https://isstrapiready.com";
+import data from './data.json';
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -94,7 +94,7 @@ export default {
     manifest: {
       name: "Is Strapi Ready?",
       description:
-        "Discover the advancement of Strapi for v4 and the list of compatible plugins",
+        "Discover the advancement of Strapi 5 and the list of compatible plugins",
       theme_color: "#1f1d80",
     },
   },
@@ -103,29 +103,10 @@ export default {
     crawler: true,
     fallback: true,
     routes: async () => {
-      const strapi = new Strapi({
-        url: process.env.STRAPI_URL,
-        prefix: "v1",
-      });
-
-      const advancements = await strapi.find("advancements");
-
-      const versions = await strapi.find("versions");
-
-      const plugins = await strapi.find("plugins", {
-        pagination: {
-          limit: -1,
-        },
-      });
-
       return [
         {
           route: "/",
-          payload: {
-            advancements,
-            plugins,
-            version: versions.data[0],
-          },
+          payload: data,
         },
       ];
     },

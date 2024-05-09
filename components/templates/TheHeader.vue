@@ -7,7 +7,7 @@
         <nuxt-link to="/">
           <h1 class="mr-4 text-3xl font-bold sm:text-4xl lg:text-5xl">
             Is
-            <span class="text-purple-500 dark:text-purple-400">Strapi v4</span>
+            <span class="text-purple-500 dark:text-purple-400">Strapi 5</span>
             ready?
           </h1>
         </nuxt-link>
@@ -27,7 +27,7 @@
     <div class="flex items-center mt-2 space-x-2 md:mt-0 md:ml-auto">
       <a
         class="w-6 h-6 transition-all transform cursor-pointer  hover:scale-110 hover:text-strapi-purple-dark"
-        href="https://github.com/Stun3R/isstrapiready"
+        href="https://github.com/strapi-community/isstrapiready"
         target="_blank"
         rel="noopener noreferrer"
       >

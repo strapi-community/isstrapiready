@@ -25,7 +25,7 @@ Each plugin as a status which provide several informations about its compabitili
 - `READY`: You can use it
 - `UNSUPPORTED`: The plugin will not be supported for the new version of Strapi
 
-If you want to submit a plugin to the **Plugins Compatibility** list [see here](https://github.com/Stun3R/isstrapiready/issues/new?assignees=&labels=plugins&template=plugin-request.yml&title=%5BPLUGIN+REQUEST%5D+%3Ctitle%3E)
+If you want to submit a plugin to the **Plugins Compatibility** list [see here](https://github.com/strapi-community/isstrapiready/issues/new?assignees=&labels=plugins&template=plugin-request.yml&title=%5BPLUGIN+REQUEST%5D+%3Ctitle%3E)
 
 ## License
 

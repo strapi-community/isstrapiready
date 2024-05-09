@@ -328,7 +328,7 @@
 <script>
 import axios from "axios";
 import _ from "lodash";
-
+import data from '../data.json';
 const STATUS = [
   {
     name: "unknown",
@@ -391,21 +391,7 @@ export default {
   async asyncData({ payload, app }) {
     if (payload) return { ...payload };
     else {
-      const advancements = await app.$strapi.find("advancements");
-
-      const versions = await app.$strapi.find("versions");
-
-      const plugins = await app.$strapi.find("plugins", {
-        pagination: {
-          limit: -1,
-        },
-      });
-
-      return {
-        advancements,
-        plugins,
-        version: versions.data[0],
-      };
+      return data;
     }
   },
   data() {
@@ -427,9 +413,9 @@ export default {
     };
   },
   head() {
-    const title = "Is Strapi v4 Ready?";
+    const title = "Is Strapi 5 Ready?";
     const description =
-      "Discover the advancement of Strapi for v4 and the list of compatible plugins!";
+      "Discover the advancement of Strapi 5 and the list of compatible plugins!";
 
     return {
       title,

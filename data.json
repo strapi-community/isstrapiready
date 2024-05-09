@@ -1,0 +1,42 @@
+{
+  "advancements": {
+    "data": [
+      {
+        "id": "codebase",
+        "attributes": {
+          "percent": 0,
+          "type": "codebase",
+          "title": "Codebase"
+        }
+      },
+      {
+        "id": "documentation",
+        "attributes": {
+          "percent": 0,
+          "type": "documentation",
+          "title": "Documentation"
+        }
+      }
+    ]
+  },
+  "plugins": {
+    "data": [
+      {
+        "attributes": {
+          "name": "strapi-plugin-config-sync",
+          "link": "https://github.com/pluginpal/strapi-plugin-config-sync",
+          "author": "PluginPal",
+          "status": "ready"
+        }
+      }
+    ],
+    "meta": { "pagination": { "total": "100" } } },
+  "version": {
+    "attributes": {
+      "isReleased": false,
+      "name": "5",
+      "announce": "https://strapi.io",
+      "latest": "5.0.0-beta.7"
+    }
+  }
+}

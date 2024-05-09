@@ -21,7 +21,7 @@ body:
     id: status
     attributes:
       label: Status
-      description: "Tell us if your plugin/provider is either ready to use in v4 or unsupported. If it is in progress or you don't know, tell us anyway"
+      description: "Tell us if your plugin/provider is either ready to use in Strapi 5 or unsupported. If it is in progress or you don't know, tell us anyway"
       options:
       - Unknown
       - Work In Progess
